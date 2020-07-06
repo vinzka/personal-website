@@ -1,14 +1,29 @@
 .navbar {
   background-color: #FAFAFA;
-  padding: 74px 280px 30px;
+  padding: 1px 5px 10px;
   color: #343434;
   font-size: 12px;
+  letter-spacing: 1px;
+  padding: 0px 0px 25px;
   }
 
 .navbar .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar .navbar-brand img {
-  width: 40px;
+.wrapper {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  list-style: none;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
 }

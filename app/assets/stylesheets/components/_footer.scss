@@ -1,0 +1,35 @@
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fafafa;
+  font-size: .9em;
+  text-align: center;
+}
+
+.footer-icons {
+ list-style: none;
+  display: flex;
+  margin: 0 auto;
+  padding: 45px 0px;
+  place-content: space-between;
+}
+
+#copyright {
+  font-family: Open Sans;
+  color: #474747;
+  margin: 0 auto;
+  padding: 45px 30px;
+  background-color: #fafafa;
+  font-size: 12px;
+  text-align: end;
+}
+
+@media only screen and (max-width: 1100px) {
+  .footer {
+  padding-left: 5%;
+  padding-right: 5%;
+  }
+}
