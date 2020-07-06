@@ -1,20 +1,29 @@
 .footer {
-  position: absolute;
-  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 132px;
+  padding: 45px 150px;
   bottom: 0;
+  position: absolute;
   width: 100%;
-  margin: 0 auto;
-  background-color: #fafafa;
-  font-size: .9em;
-  text-align: center;
+
 }
 
-.footer-icons {
- list-style: none;
+.footer-links {
   display: flex;
-  margin: 0 auto;
-  padding: 45px 0px;
-  place-content: space-between;
+  align-items: center;
+}
+
+.footer-links li {
+  list-style: none;
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+.footer-links img:hover {
+  opacity: 0.35;
 }
 
 #copyright {
