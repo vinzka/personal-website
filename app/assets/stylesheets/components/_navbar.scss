@@ -11,7 +11,7 @@
   flex-grow: 0;
 }
 
-.wrapper {
+.buttons {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -28,8 +28,17 @@
   justify-content: space-evenly;
 }
 
-.wrapper li:hover {
-    color: #818181;
+.buttons a:hover {
+    color: #818181 !important;
+}
+
+.btn-navbar {
+  background-color: #FAFAFA;
+  padding: 1px 5px 10px;
+  color: #343434;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 0px 0px 25px;
 }
 
 

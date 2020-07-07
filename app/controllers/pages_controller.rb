@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def home
   end
 
-  def job
+  def work
   end
 
   def photography

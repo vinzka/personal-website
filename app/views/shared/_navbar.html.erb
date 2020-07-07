@@ -1,14 +1,12 @@
-
-    <div class="row justify-content-center">
-      <div class="top-navigation">
-        <h1 id="title-name">Vincent Katz</h1>
-        <div class="navbar">
-          <ul class="wrapper">
-            <li>ABOUT</li>
-            <li>WORK</li>
-            <li>PHOTOGRAPHY</li>
-          </ul>
-        </div>
-      </div>
+<div class="row justify-content-center">
+  <div class="top-navigation">
+    <h1 id="title-name">Vincent Katz</h1>
+    <div class="navbar">
+      <ul class="buttons">
+        <li><%= link_to "ABOUT", home_path, class: "btn-navbar text-decoration-none" %></li>
+        <li><%= link_to "WORK", work_path, class: "btn-navbar text-decoration-none" %></li>
+        <li><%= link_to "PHOTOGRAPHY", photography_path, class: "btn-navbar text-decoration-none" %></li>
+      </ul>
     </div>
-
+  </div>
+</div>
