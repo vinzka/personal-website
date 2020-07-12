@@ -63,6 +63,9 @@
     padding-left: 0%;
     padding-right: 0%;
   }
+  .footer-links {
+    padding-left: 18%;
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -71,6 +74,9 @@
     padding-left: 5%;
     padding-right: 5%;
   }
+  .footer-links {
+    padding-left: 18%;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -78,6 +84,9 @@
   .footer {
     padding-left: 5%;
     padding-right: 5%;
+  }
+  .footer-links {
+    padding-left: 18%;
   }
 }
 
