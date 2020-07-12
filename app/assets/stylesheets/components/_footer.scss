@@ -33,13 +33,16 @@
   padding: 45px 0px;
   font-size: 12px;
   text-align: end;
-  padding-right: 92px;
+  margin-inline-end: 110px;
 }
 
 @media (min-width: 100px) and (max-width: 575px) {
   .footer {
     padding-left: 0%;
     padding-right: 0%;
+  }
+  .footer-links {
+    padding-left: 14%;
   }
 }
 
@@ -48,6 +51,9 @@
   .footer {
     padding-left: 0%;
     padding-right: 0%;
+  }
+  .footer-links {
+    padding-left: 14%;
   }
 }
 
